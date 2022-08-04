@@ -1,0 +1,82 @@
+body{
+    background-image: url(Image/alley.jpeg);
+    background-size: cover;
+}
+legend{
+    color: rgb(255, 0, 0);
+    font-size: 100px;
+    font-family: fantasy;
+    margin: 2px;
+}
+fieldset{
+    border-width: 10px;
+    border-style: none;
+}
+form{
+    color: rgb(255, 255, 255);
+}
+a{
+    color: rgb(0, 0, 0);
+    stroke-width: 10px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 225, 225);
+    border-width: 5px;
+}
+img{
+    display:block;
+    width: 500px;
+    padding: 10px;
+    border: 20px white;
+    margin: auto;
+    opacity: 0%;
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fade{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.steal {
+    background-color: white;
+    color:rgb(0, 0, 0);
+    border: 2px solid black;
+    padding: 1px;
+    transition-duration: 0.4s;
+    font-family: fantasy;
+    margin-bottom: 2px;
+}
+.steal:hover {
+    background-color: red;
+    color: white;    
+}
+#ui {
+    background-color: white;
+    margin: 2px;
+    width: 350px;
+    height: auto;
+    font-family: fantasy;
+    padding: 10px;
+    box-shadow: 8px 10px 0px 0px rgba(0,0,0,1);
+    -webkit-box-shadow: 8px 10px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 8px 10px 0px 0px rgba(0,0,0,1);
+}
+#title {
+    padding: 2px;
+    margin: 2px;
+    font-size: 30px;
+}
+#money {
+    background-color: white;
+    color: black;
+    border-width: 2px;
+    border-color: black;
+}
+#hello {
+    color: black;
+    padding: 0px;
+    margin: auto;
+    font-family: Arial;
+}
